@@ -1,16 +1,15 @@
 {
   "files": {
     "main.css": "/animalcard-app/static/css/main.eb8d6bae.css",
-    "main.js": "/animalcard-app/static/js/main.b924ef0a.js",
+    "main.js": "/animalcard-app/static/js/main.fd29c8df.js",
     "static/js/453.5f347170.chunk.js": "/animalcard-app/static/js/453.5f347170.chunk.js",
-    "static/media/logo.svg": "/animalcard-app/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/animalcard-app/index.html",
     "main.eb8d6bae.css.map": "/animalcard-app/static/css/main.eb8d6bae.css.map",
-    "main.b924ef0a.js.map": "/animalcard-app/static/js/main.b924ef0a.js.map",
+    "main.fd29c8df.js.map": "/animalcard-app/static/js/main.fd29c8df.js.map",
     "453.5f347170.chunk.js.map": "/animalcard-app/static/js/453.5f347170.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.eb8d6bae.css",
-    "static/js/main.b924ef0a.js"
+    "static/js/main.fd29c8df.js"
   ]
 }
