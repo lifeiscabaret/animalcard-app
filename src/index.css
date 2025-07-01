@@ -1,0 +1,30 @@
+
+body {
+    text-align: center;
+}
+
+form {
+    margin-bottom: 20px;
+}
+
+.main-card button {
+    position: relative;
+    left: -80px;
+    top: -10px;
+}
+
+.favorites {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+.favorites li {
+    list-style: none;
+}
+
+.favorites img {
+    width: 150px;
+
+}
