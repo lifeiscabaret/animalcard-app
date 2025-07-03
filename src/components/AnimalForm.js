@@ -1,12 +1,10 @@
 import React from "react";
 
 const AnimalForm = ({ updateMainAnimal }) => {
-
   const [value, setValue] = React.useState('');
   const [errorMessage, setErrorMessage] = React.useState('');
 
-  const hangul = (text) => /[ㄱ-ㅎ | ㅏ-ㅣ | 가-힣]/.test(text);
-
+  const hangul = (text) => /[ㄱ-ㅎㅏ-ㅣ가-힣]/.test(text);
 
   function handleInputChange(data) {
     const userValue = data.target.value;
@@ -23,12 +21,14 @@ const AnimalForm = ({ updateMainAnimal }) => {
     e.preventDefault();
 
     if (value === '') {
-      setErrorMessage('추가할 수 없습니다.');
+      setErrorMessage('빈 값은 추가할 수 없습니다.');
       return;
     }
+
     setErrorMessage('');
-    updateMainAnimal();
+    updateMainAnimal(value);
   }
+
   return (
     <form onSubmit={handleSubmit}>
       <input
@@ -40,7 +40,7 @@ const AnimalForm = ({ updateMainAnimal }) => {
         value={value}
       />
       <button type="submit">추가</button>
-      <p style={{ color: 'red' }}>{errorMessage}</p>
+      <p style={{ color: "#f00" }}>{errorMessage}</p>
     </form>
   );
 }

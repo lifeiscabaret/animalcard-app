@@ -4,6 +4,5 @@ const AnimalItem = ({ src, alt }) => {
       <img src={src} alt={alt} />
     </li>
   );
-};
-
+}
 export default AnimalItem;

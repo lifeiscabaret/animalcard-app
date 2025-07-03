@@ -23,16 +23,18 @@ const jsonLocalStorage = {
 const fetchCat = async (text) => {
   console.log('fetchCat() 함수 실행');
 
-  const response = await fetch(`${OPEN_API_DOMAIN}/cat/says/${text}?json=true`);
+  const response = await fetch(`${OPEN_API_DOMAIN}/cat/says/${text}?json=true&width=400&height=400`);
   const responseJson = await response.json();
 
   return responseJson.url;
 };
 
 
+
 function App() {
   console.log('** App 실행 **');
 
+  //const [inputText, setInputText] = React.useState(''); 
   const [mainAnimal, setMainAnimal] = React.useState(`${OPEN_API_DOMAIN}/cat`);
   const [favorites, setFavorites] = React.useState(() => {
     console.log('favorites useState() 실행됨!');
@@ -54,8 +56,8 @@ function App() {
     });
   }
 
-  async function updateMainAnimal() {
-    const newCat = await fetchCat('hahaha~');
+  async function updateMainAnimal(text) {
+    const newCat = await fetchCat(text);
     setMainAnimal(newCat);
 
     incrementCount();
@@ -73,7 +75,7 @@ function App() {
 
   return (
     <div>
-      <PageTitle>👧🏻🛀🏻 {count} 페이지 🎀🎁</PageTitle>
+      <PageTitle>🩰🩱 {count} 페이지 🥽🎨</PageTitle>
       <AnimalForm updateMainAnimal={updateMainAnimal} />
       <MainCard
         src={mainAnimal}
