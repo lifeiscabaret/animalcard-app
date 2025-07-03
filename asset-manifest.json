@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/animalcard-app/static/css/main.eb8d6bae.css",
-    "main.js": "/animalcard-app/static/js/main.60da0997.js",
-    "static/js/453.5f347170.chunk.js": "/animalcard-app/static/js/453.5f347170.chunk.js",
-    "index.html": "/animalcard-app/index.html",
-    "main.eb8d6bae.css.map": "/animalcard-app/static/css/main.eb8d6bae.css.map",
-    "main.60da0997.js.map": "/animalcard-app/static/js/main.60da0997.js.map",
-    "453.5f347170.chunk.js.map": "/animalcard-app/static/js/453.5f347170.chunk.js.map"
+    "main.css": "/react-animal-app/static/css/main.ccd5d91e.css",
+    "main.js": "/react-animal-app/static/js/main.37eb58ad.js",
+    "static/js/453.3f58df06.chunk.js": "/react-animal-app/static/js/453.3f58df06.chunk.js",
+    "index.html": "/react-animal-app/index.html",
+    "main.ccd5d91e.css.map": "/react-animal-app/static/css/main.ccd5d91e.css.map",
+    "main.37eb58ad.js.map": "/react-animal-app/static/js/main.37eb58ad.js.map",
+    "453.3f58df06.chunk.js.map": "/react-animal-app/static/js/453.3f58df06.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.eb8d6bae.css",
-    "static/js/main.60da0997.js"
+    "static/css/main.ccd5d91e.css",
+    "static/js/main.37eb58ad.js"
   ]
 }
