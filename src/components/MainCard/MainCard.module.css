@@ -1,0 +1,11 @@
+.TitleImage {
+  width: 600px;
+  height: 600px;
+  object-fit: cover;
+  border: 3px solid #ff0;
+}
+.Button {
+  position: relative;
+  left: -45px;
+  top: -13px;
+}
