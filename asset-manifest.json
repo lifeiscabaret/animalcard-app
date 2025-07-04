@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/react-animal-app/static/css/main.f1ef13c1.css",
-    "main.js": "/react-animal-app/static/js/main.3352f8b8.js",
-    "index.html": "/react-animal-app/index.html",
-    "main.f1ef13c1.css.map": "/react-animal-app/static/css/main.f1ef13c1.css.map",
-    "main.3352f8b8.js.map": "/react-animal-app/static/js/main.3352f8b8.js.map"
+    "main.css": "/lifeiscabaret/animalcard-app/static/css/main.f1ef13c1.css",
+    "main.js": "/lifeiscabaret/animalcard-app/static/js/main.3352f8b8.js",
+    "index.html": "/lifeiscabaret/animalcard-app/index.html",
+    "main.f1ef13c1.css.map": "/lifeiscabaret/animalcard-app/static/css/main.f1ef13c1.css.map",
+    "main.3352f8b8.js.map": "/lifeiscabaret/animalcard-app/static/js/main.3352f8b8.js.map"
   },
   "entrypoints": [
     "static/css/main.f1ef13c1.css",
